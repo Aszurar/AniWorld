@@ -102,15 +102,18 @@ header{
   height: 100%;
 }
 
+
 /* ID's */
 #register-input{
   width: 25vw;
   height: 3vw;
+  margin: 0 30% 0 0;
 }
 
 #register-btn{
   width: 15vw;
   height: 3vw;
+  margin: 0 0 0 30%;
 }
 
 @media (max-width: 1028px){
@@ -132,5 +135,6 @@ header{
 
   #register-btn{
     height: 2rem;
+    margin: 0;
   }
 }
