@@ -1,3 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+:root{
+  --color-dark-light: #23272a;
+  --color-white: white;
+  --color-bluebold: #7289da;
+  --color-black: #000000;
+  --color-orange: rgb(253, 149, 31);
+  --color-green: rgb(4, 211, 97);
+  --color-purple: rgb(113, 89, 193);
+}
+
+body{
+  font-family: 'Poppins', sans-serif;
+}
+
+.navbarsection a{
+  text-decoration: none;
+  color: var(--color-white);
+
+}
+
+header{
+  box-sizing: border-box;
+}
+
+.navbar{
+  background-color: var(--color-dark-light);
+  padding: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.collapse.navbar-collapse{
+  display: flex;
+  justify-content: center;
+}
+.navbar-nav.text-center li + li{
+  margin-left: 50px;
+}
+
+.dropdown-menu a{
+  color: var(--color-black);
+}
+.dropdown-menu a:hover{
+  font-weight: bold;
+  color: var(--color-bluebold);
+}
+
+.navbar-nav.text-center li:hover{
+  font-weight: bold;
+  color: var(--color-bluebold);
+}
+.navbar-nav.text-center li a:hover{
+  font-weight: bold;
+  color: var(--color-bluebold);
+}
+
+
 .asdmaod{
   background-color: black;
 }
