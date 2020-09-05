@@ -14,11 +14,11 @@ body{
 }
 
 h1, h2, h3{
-  font-family: 'Montserrat-Bold', sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 h1#site-title{
-  font-size: 7vw;
+  font-size: 5vw;
 }
 
 p{
@@ -36,6 +36,7 @@ header{
   box-sizing: border-box;
 }
 
+
 /* Classes */
 .navbar{
   background-color: var(--color-dark-light);
@@ -51,9 +52,41 @@ header{
   margin: 0.5rem 0.5rem;
 }
 
+.button-div{
+  margin-top: 20%;
+}
+
+.color-section{
+  background-color: var(--color-dark-light);
+}
+
 .collapse.navbar-collapse{
   display: flex;
   justify-content: center;
+}
+
+.download-btn{
+  width: 100%;
+}
+
+.download-div{
+  width: 90%;
+}
+
+.download-icon{
+  margin-right: 5%;
+}
+
+.download-info{
+  text-align: center;
+  padding: 10% 0;
+}
+
+.download-text{
+  font-family: 'Montserrat', sans-serif;
+  color: 	#FFA500;
+  font-size: 5vw;
+  margin-top: 25%;
 }
 
 .dropdown-menu a{
@@ -111,6 +144,20 @@ header{
   margin: 7% 0;
 }
 
+.feature-box{
+  text-align: center;
+  padding: 4.5rem;
+}
+
+.feature-text{
+  padding-top: 2.5rem;
+  font-size: 1.5rem;
+}
+
+.feature-icon:hover{
+  color: var(--color-orange);
+}
+
 .video{
   width: 100%;
   max-height:100%;
@@ -118,19 +165,22 @@ header{
   z-index: -1;
 }
 
+.smartphone-img{
+  width: 100%;
+  height: 100%;
+}
 
 /* ID's */
 #register-input{
-  width: 35vw;
+  width: 100%;
   height: 3rem;
   font-weight: bold;
 }
 
 #register-btn{
-  width: 8rem;
-  height: 3rem;
-  margin-left: 8vw;
+	width: 100%;
 }
+
 
 .titleSubscription{
   text-align: center;
@@ -201,26 +251,7 @@ header{
 }
 
 @media (max-width: 1028px){
-  #register-input{
-    height: 5vw;
-  }
-
   #register-btn{
-    height: 5vw;
-  }
-}
-
-@media (max-width: 768px){
-
-  #register-input{
-    width: 35vw;
-    height: 2rem;
-    margin: 5% 0;
-  }
-
-  #register-btn{
-    height: 2rem;
-    width: 8rem;
-    margin: 5% 0;
+	margin-top: 2rem;
   }
 }

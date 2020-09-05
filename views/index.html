@@ -14,10 +14,10 @@
     <link rel="stylesheet" href="../public/visuals/styles.css" />
 
     <!-- Google Fonts -->
-    <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,900&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
 
     <!-- Bootstrap Scripts -->
     <script
@@ -173,7 +173,7 @@
 
     <!-- Frame1 -->
     <section>
-      <div class="container-fluid" style="position: relative">
+      <div class="container-fluid" style="position: relative;">
         <div class="row">
           <!-- Background video -->
           <video
@@ -195,13 +195,13 @@
 
             <form action="index.html" method="post">
               <div class="row form-div">
-                <div class="col-lg-6 col-md-6 col-sm-12">
+                <div class="col-lg-8">
                   <input type="email" placeholder="Email" id="register-input" />
                 </div>
 
-                <div class="col-lg-6 col-md-6 col-sm-12">
+                <div class="col-lg-4">
                   <button
-                    class="btn btn-danger center"
+                    class="btn btn-danger btn-lg center"
                     type="button"
                     id="register-btn"
                   >
@@ -216,9 +216,55 @@
     </section>
 
     <!-- Frame2 -->
-    <section></section>
+    <section class="color-section">
+      <div class="container-fluid download-div" style="position: relative;">
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="download-info">
+              <h2 class="download-text">Watch anime any time any place!</h2>
+
+              <div class="row button-div">
+                <div class="col-lg-6">
+                  <button class="btn btn-lg download-btn" type="button" name="button"><i class="fab fa-google-play download-icon"></i>DOWNLOAD</button>
+                </div>
+
+                <div class="col-lg-6">
+                  <button class="btn btn-lg download-btn" type="button" name="button"><i class="fab fa-apple download-icon"></i>DOWNLOAD</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6 download-info">
+            <img class="smartphone-img" src="../public/assets/images/smartphone-image.png">
+          </div>
+        </div>
+      </div>
+    </section>
 
     <!-- Frame3 -->
+    <section>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-4 feature-box">
+            <i class="fas fa-download fa-9x feature-icon"></i>
+            <p class="feature-text">Download you favorite episodes in high resolution!</p>
+          </div>
+
+          <div class="col-lg-4 feature-box">
+            <i class="fab fa-accessible-icon fa-9x feature-icon"></i>
+            <p class="feature-text">Literraly any one can use.</p>
+          </div>
+
+          <div class="col-lg-4 feature-box">
+            <i class="fas fa-bullseye fa-9x feature-icon"></i>
+            <p class="feature-text">Find a anime that will suit your tastes.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Frame4 -->
     <section>
       <div class="titleSubscription">
         <h1>Enjoy all benefits with Premium <br> or use the free version!</h1>
@@ -296,9 +342,6 @@
         </div>
       </main>
     </section>
-
-    <!-- Frame4 -->
-    <section></section>
 
     <!-- Frame5 -->
     <section></section>
