@@ -51,7 +51,7 @@ header{
   justify-content: center;
 }
 .navbar-nav.text-center li + li{
-  margin-left: 50px;
+  margin-left: 30px;
 }
 
 .dropdown-menu a{
@@ -59,21 +59,41 @@ header{
 }
 .dropdown-menu a:hover{
   font-weight: bold;
-  color: var(--color-bluebold);
+  color: var(--color-orange);
 }
 
 .navbar-nav.text-center li:hover{
   font-weight: bold;
-  color: var(--color-bluebold);
+  color: var(--color-orange);
 }
 .navbar-nav.text-center li a:hover{
   font-weight: bold;
-  color: var(--color-bluebold);
+  color: var(--color-orange);
 }
+
+.btn{
+  margin-left: 119px;
+  padding: 8px 32px;
+  color: var(--color-orange);
+  border: 2px solid var(--color-orange);
+  background-color: var(--color-dark-light);
+
+}
+
+.btn:hover{
+  background-color: var(--color-orange);
+  color: var(--color-dark-light);
+  transition: 700ms;
+}
+
 
 
 .asdmaod{
   background-color: black;
+}
+
+.container-fluid{
+  margin-top: 50px;
 }
 
 .center{
@@ -84,6 +104,11 @@ header{
   left: 50%;
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
+}
+
+.subtitle{
+  color: var(--color-dark-light);
+  font-weight: bold;
 }
 
 .background-text{
@@ -99,7 +124,7 @@ header{
 
 .video{
   width: 100%;
-  height: 100%;
+  max-height:100%;
 }
 
 
@@ -108,12 +133,81 @@ header{
   width: 25vw;
   height: 3vw;
   margin: 0 30% 0 0;
+  font-weight: bold;
 }
 
 #register-btn{
   width: 15vw;
   height: 3vw;
   margin: 0 0 0 30%;
+}
+
+.titleSubscription{
+  text-align: center;
+  padding: 32px;
+  margin-top: 56px;
+}
+
+.titleSubscription h1{
+  font-size: 34px;
+  margin-bottom: 16px;
+  text-shadow: 1px 1px 5px var(--color-black);
+  font-weight: bold;
+}
+
+.titleSubscription p{
+  font-size: 18px;
+  font-weight: bold;
+  color: var(--color-dark-light);
+  text-shadow: 1px 1px 5px var(--color-black);
+
+}
+
+.grid{
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.main{
+  max-width: 100%;
+  padding: 30px;
+}
+
+.cards{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 24px;
+  grid-row-gap: 24px;
+}
+
+.card{
+  text-align: center;
+
+}
+
+.image-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.titleAni span{
+  width: 48px;
+  height: 48px;
+  padding: 30px;
+  border: 5px solid var(--color-bluebold);
+  border-radius: 50%;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.image-container h2{
+  margin-top: 64px;
 }
 
 @media (max-width: 1028px){
