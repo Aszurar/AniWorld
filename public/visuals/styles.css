@@ -39,19 +39,21 @@ header{
 /* Classes */
 .navbar{
   background-color: var(--color-dark-light);
-  padding: 32px;
+  padding: 2rem;
   display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
 }
 
+.nav-button{
+  width: 8rem;
+  margin: 0.5rem 0.5rem;
+}
+
 .collapse.navbar-collapse{
   display: flex;
   justify-content: center;
-}
-.navbar-nav.text-center li + li{
-  margin-left: 30px;
 }
 
 .dropdown-menu a{
@@ -72,8 +74,6 @@ header{
 }
 
 .btn{
-  margin-left: 119px;
-  padding: 8px 32px;
   color: var(--color-orange);
   border: 2px solid var(--color-orange);
   background-color: var(--color-dark-light);
@@ -86,19 +86,8 @@ header{
   transition: 700ms;
 }
 
-
-
-.asdmaod{
-  background-color: black;
-}
-
-.container-fluid{
-  margin-top: 50px;
-}
-
 .center{
   position: absolute;
-  z-index: 1;
   margin: 0;
   top: 50%;
   left: 50%;
@@ -125,21 +114,22 @@ header{
 .video{
   width: 100%;
   max-height:100%;
+  position: relative;
+  z-index: -1;
 }
 
 
 /* ID's */
 #register-input{
-  width: 25vw;
-  height: 3vw;
-  margin: 0 30% 0 0;
+  width: 35vw;
+  height: 3rem;
   font-weight: bold;
 }
 
 #register-btn{
-  width: 15vw;
-  height: 3vw;
-  margin: 0 0 0 30%;
+  width: 8rem;
+  height: 3rem;
+  margin-left: 8vw;
 }
 
 .titleSubscription{
@@ -221,6 +211,7 @@ header{
 }
 
 @media (max-width: 768px){
+
   #register-input{
     width: 35vw;
     height: 2rem;
@@ -229,6 +220,7 @@ header{
 
   #register-btn{
     height: 2rem;
-    margin: 0;
+    width: 8rem;
+    margin: 5% 0;
   }
 }
