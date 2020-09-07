@@ -53,7 +53,7 @@ header{
 }
 
 .button-div{
-  margin-top: 20%;
+  margin-top: 5%;
 }
 
 .color-section{
@@ -66,7 +66,7 @@ header{
 }
 
 .download-btn{
-  width: 100%;
+  width: 85%;
 }
 
 .download-div{
@@ -78,8 +78,8 @@ header{
 }
 
 .download-info{
+  width: 100%;
   text-align: center;
-  padding: 10% 0;
 }
 
 .download-text{
@@ -178,7 +178,7 @@ header{
 }
 
 #register-btn{
-	width: 100%;
+	width: 80%;;
 }
 
 .frame4{
@@ -341,8 +341,18 @@ header{
   padding-right: 1rem;
 }
 
-@media (max-width: 1028px){
+@media (max-width: 991px){
   #register-btn{
-	margin-top: 2rem;
+	   margin-top: 2rem;
+  }
+
+  .download-btn{
+    margin: 2% 0;
+    width: 50%;
+  }
+
+  .download-text{
+	   margin: 2rem 0;
+     font-size: 4rem;
   }
 }
