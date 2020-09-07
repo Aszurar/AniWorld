@@ -18,7 +18,7 @@ h1, h2, h3{
 }
 
 h1#site-title{
-  font-size: 5vw;
+  font-size: 6rem;
 }
 
 p{
@@ -40,7 +40,6 @@ header{
 /* Classes */
 .navbar{
   background-color: var(--color-dark-light);
-  padding: 2rem;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -52,6 +51,10 @@ header{
   margin: 0.5rem 0.5rem;
 }
 
+.navbar-toggler{
+  color: gray;
+}
+
 .button-div{
   margin-top: 20%;
 }
@@ -60,13 +63,9 @@ header{
   background-color: var(--color-dark-light);
 }
 
-.collapse.navbar-collapse{
-  display: flex;
-  justify-content: center;
-}
-
 .download-btn{
-  width: 100%;
+  width: 85%;
+  margin-top: 2.5rem;
 }
 
 .download-div{
@@ -86,7 +85,7 @@ header{
   font-family: 'Montserrat', sans-serif;
   color: 	#FFA500;
   font-size: 5vw;
-  margin-top: 25%;
+  text-align: center;
 }
 
 .dropdown-menu a{
@@ -119,29 +118,33 @@ header{
   transition: 700ms;
 }
 
-.center{
+/* .center{
   position: absolute;
   margin: 0;
   top: 50%;
   left: 50%;
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
-}
+} */
 
 .subtitle{
-  color: var(--color-dark-light);
+  color: var(--color-orange);
   font-weight: bold;
 }
 
 .background-text{
   color: white;
-
+  position: absolute;
 }
 
 .form-div{
   position: relative;
   text-align: center;
   margin: 7% 0;
+}
+
+.video-div{
+  overflow-x: hidden;
 }
 
 .feature-box{
@@ -170,6 +173,40 @@ header{
   height: 100%;
 }
 
+.anime-content-div{
+  width: 60%;
+  height: 80%;
+  text-align: center;
+  padding: 10% 2%;
+}
+
+.anime-title{
+  color: orange;
+  font-style: bold;
+  font-size: 2.25rem;
+}
+
+.synopsis{
+  color: gray;
+  font-size: 1.5rem;
+  justify-content: center;
+}
+
+.iframe-container{
+  overflow: hidden;
+  padding-top: 62.5%;
+  position: relative;
+}
+
+.iframe-container iframe{
+  border: 0;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
 /* ID's */
 #register-input{
   width: 100%;
@@ -188,7 +225,6 @@ header{
 .titleSubscription{
   text-align: center;
   padding: 2rem;
-  margin-top: 3.5rem;
   padding-top: 4%;
 }
 
@@ -272,7 +308,6 @@ header{
   font-family: "Poppins", sans-serif;
 }
 
-
 .price-text{
   text-align: center;
   font-weight: bold;
@@ -341,8 +376,26 @@ header{
   padding-right: 1rem;
 }
 
-@media (max-width: 1028px){
-  #register-btn{
-	margin-top: 2rem;
+@media (max-width: 1060px){
+
+  .download-btn{
+    width: 100%;
+  }
+
+  .download-text{
+     font-size: 4rem;
+  }
+
+  .subtitle{
+    font-size: 1.5rem;
+  }
+
+  .synopsis{
+    font-size: 2vw;
+  }
+
+  .video{
+    width: 250%;
+    height: 250%;
   }
 }
