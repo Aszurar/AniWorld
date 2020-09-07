@@ -181,73 +181,164 @@ header{
 	width: 100%;
 }
 
+.frame4{
+  background-color: var(--color-orange);
+}
 
 .titleSubscription{
   text-align: center;
-  padding: 32px;
-  margin-top: 56px;
+  padding: 2rem;
+  margin-top: 3.5rem;
+  padding-top: 4%;
 }
 
 .titleSubscription h1{
+  border-top: 3px solid var(--color-white);
   font-size: 34px;
   margin-bottom: 16px;
-  text-shadow: 1px 1px 5px var(--color-black);
   font-weight: bold;
+  padding-top: 4%;
 }
 
 .titleSubscription p{
   font-size: 18px;
   font-weight: bold;
   color: var(--color-dark-light);
-  text-shadow: 1px 1px 5px var(--color-black);
+  padding-bottom: 4%;
+  border-bottom: 3px solid var(--color-white);
 
-}
-
-.grid{
-  margin-top: 100px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-
-.main{
-  max-width: 100%;
-  padding: 30px;
-}
-
-.cards{
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-column-gap: 24px;
-  grid-row-gap: 24px;
 }
 
 .card{
-  text-align: center;
-
+  background-color: var(--color-dark-light);
+  color: var(--color-orange);
 }
 
-.image-container{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
+.card:hover {
+ transition: 2s;
+ color: var(--color-white);
 }
 
-.titleAni span{
-  width: 48px;
-  height: 48px;
-  padding: 30px;
-  border: 5px solid var(--color-bluebold);
-  border-radius: 50%;
-  font-size: 24px;
+.card::before{
+  content: "";
+  width: 0%;
+  height: 0.2rem;
+  background-color: var(--color-white);
+  position: absolute;
+  left: 0;
+  top: -1px;
+}
+
+.card:hover::before{
+  width: 100%;
+  transition: width 1.5s ease-in-out;
+  padding-right: 1rem;
+}
+
+.card::after{
+  content: "";
+  width: 0%;
+  height: 0.2rem;
+  background-color: var(--color-white);
+  position: absolute;
+  left: 0;
+  bottom: -1px;
+}
+
+.card:hover::after{
+  width: 100%;
+  transition: width 1.5s ease-in-out;
+  padding-right: 1rem;
+}
+
+
+.card-header h1 {
+  font-family: "Poppins", sans-serif;
+  border: 0.125rem solid var(--color-orange);
+  text-align: center;
+  padding: 3rem;
+  color: var(--color-white);
+  background-color: var(--color-dark-light);
+}
+
+.card-header h1 span{
+  font-size: 2.9rem;
+  color: var(--color-white);
   font-weight: bold;
+  text-shadow: 0.25rem 0.188rem 0.125rem var(--color-orange);
 }
 
-.image-container h2{
-  margin-top: 64px;
+.card-body h2,p{
+  font-family: "Poppins", sans-serif;
+}
+
+
+.price-text{
+  text-align: center;
+  font-weight: bold;
+  font-size: 2rem;
+  text-transform: uppercase;
+  margin-bottom: 2rem;
+}
+
+.price-text span{
+  font-size: 1.5rem;
+}
+
+.price-text span + span{
+  font-size: 1rem;
+  text-transform: lowercase;
+}
+
+.benefits{
+  padding: 1rem;
+  list-style-type: circle;
+  font-size: 1.25rem;
+  line-height: 1.5rem;
+  list-style-position: inside;
+}
+.benefits li:first-child{
+  margin-top: 1rem;
+}
+
+.benefits li:last-child{
+  margin-bottom: 1rem;
+}
+
+.benefits li + li{
+  margin-top: 1rem;
+}
+
+
+.benefits::before{
+  content: "";
+  width: 0%;
+  height: 0.2rem;
+  background-color: var(--color-orange);
+  position: absolute;
+  right: 0;
+  margin-bottom: 1rem;
+}
+
+.benefits:hover::before{
+  width: 100%;
+  transition: width 1.5s ease-in-out;
+  padding-right: 1rem;
+}
+
+.benefits::after{
+  content: "";
+  width: 0%;
+  height: 0.2rem;
+  background-color: var(--color-orange);
+  position: absolute;
+  right: 0;
+}
+
+.benefits:hover::after{
+  width: 100%;
+  transition: width 1.5s ease-in-out;
+  padding-right: 1rem;
 }
 
 @media (max-width: 1028px){
