@@ -78,7 +78,7 @@ header{
 
 .download-info{
   text-align: center;
-  padding: 10% 0;
+  padding: 5% 0;
 }
 
 .download-text{
@@ -174,10 +174,10 @@ header{
 }
 
 .anime-content-div{
-  width: 60%;
+  width: 80%;
   height: 80%;
   text-align: center;
-  padding: 10% 2%;
+  padding: 5% 2%;
 }
 
 .anime-title{
@@ -216,7 +216,7 @@ header{
 }
 
 #register-btn{
-  width: 75%;
+	width: 75%;
 }
 
 .frame4{
@@ -396,6 +396,14 @@ header{
 }
 
 @media (max-width: 1060px){
+
+  .anime-content-div{
+    padding: 0 1rem 3rem 1rem;
+  }
+
+  .anime-content-div.carousel-text{
+    padding: 0.5rem 1rem;
+  }
 
   .download-btn{
     width: 100%;
