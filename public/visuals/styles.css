@@ -221,6 +221,8 @@ header{
 
 .frame4{
   background-color: var(--color-orange);
+  padding: 2rem 0;
+
 }
 
 .titleSubscription{
@@ -260,7 +262,7 @@ header{
 }
 
 .pricing-column{
-  margin-bottom: 5%;
+  margin-bottom: 2%;
 }
 
 .singup-text{
@@ -393,6 +395,52 @@ header{
   width: 100%;
   transition: width 1.5s ease-in-out;
   padding-right: 1rem;
+}
+
+.infosub p{
+  font-size: 1rem;
+  text-align: center;
+  font-weight: bold;
+}
+
+.footer{
+  padding-top: 2rem;
+}
+
+.ultimate{
+  background-color: var(--color-dark-light);
+}
+
+.infotitle{
+  padding: 0;
+}
+.infotitle h4{
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.infolist{
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+}
+
+.infolist a{
+  font-size: 0.95rem;
+  text-decoration: none;
+  color: var(--color-white);
+
+}
+
+.infolist a + a{
+  margin-top: 0.5rem;
+}
+
+.infolist a:hover{
+  transition: 1.5s;
+  font-weight: bold;
+  color: var(--color-orange);
+  text-shadow: 0.5rem 0.125rem 1rem var(--color-black);
 }
 
 @media (max-width: 1060px){
