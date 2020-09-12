@@ -1,506 +1,495 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
 
-<head>
-  <meta charset="utf-8" />
-  <title>AniWorld</title>
+  <head>
+    <meta charset="utf-8"/>
+    <title>AniWorld</title>
 
-  <!-- CSS Stylesheets -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
-  <link rel="stylesheet" href="../public/visuals/styles.css">
+    <!-- CSS Stylesheets -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="../public/visuals/styles.css">
 
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,900&display=swap" rel="stylesheet" />
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,900&display=swap" rel="stylesheet"/>
 
-  <!-- Font Awesome -->
-  <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+    <!-- Font Awesome -->
+    <script defer="defer" src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
 
-  <!-- Bootstrap Scripts -->
-  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-</head>
+    <!-- Bootstrap Scripts -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </head>
 
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark">
+      <div class="container-fluid navtitle">
+        <a class="navbar-brand mr-auto" href="#">Ani<span>World</span></a>
 
-<body>
-  <!-- Navbar -->
-  <nav class="navbar fixed-top navbar-expand-lg navbar-dark">
-    <div class="container-fluid">
-      <a class="navbar-brand mr-auto" href="#">AniWorld</a>
+        <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-      <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+          <div class="container-fluid">
+            <div class="row align-items-center justify-content-center">
+              <ul class="navbar-nav">
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle navlink" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Ranking
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#">All Anime</a>
+                    <a class="dropdown-item" href="#">Top Airing</a>
+                    <a class="dropdown-item" href="#">Top TV Series</a>
+                    <a class="dropdown-item" href="#">Top Movies</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Most Popular</a>
+                    <a class="dropdown-item" href="#">Most Favorited</a>
+                    <a class="dropdown-item" href="#">Top OVAs</a>
+                    <a class="dropdown-item" href="#">Top ONAs</a>
+                    <a class="dropdown-item" href="#">Top Specials</a>
+                  </div>
+                </li>
 
-      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-        <div class="container-fluid">
-          <div class="row align-items-center justify-content-center">
-            <ul class="navbar-nav">
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  Ranking
-                </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <a class="dropdown-item" href="#">All Anime</a>
-                  <a class="dropdown-item" href="#">Top Airing</a>
-                  <a class="dropdown-item" href="#">Top TV Series</a>
-                  <a class="dropdown-item" href="#">Top Movies</a>
-                  <div class="dropdown-divider"></div>
-                  <a class="dropdown-item" href="#">Most Popular</a>
-                  <a class="dropdown-item" href="#">Most Favorited</a>
-                  <a class="dropdown-item" href="#">Top OVAs</a>
-                  <a class="dropdown-item" href="#">Top ONAs</a>
-                  <a class="dropdown-item" href="#">Top Specials</a>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Season Release
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#">Season Highlights</a>
+                    <a class="dropdown-item" href="#">Week Release</a>
+                    <a class="dropdown-item" href="#">Airing</a>
+                  </div>
+                </li>
+
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Category
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#">Ação</a>
+                    <a class="dropdown-item" href="#">Aventura</a>
+                    <a class="dropdown-item" href="#">Battle</a>
+                    <a class="dropdown-item" href="#">Comedy</a>
+                    <a class="dropdown-item" href="#">Drama</a>
+                    <a class="dropdown-item" href="#">Fantasy</a>
+                    <a class="dropdown-item" href="#">Mecha</a>
+                    <a class="dropdown-item" href="#">Music</a>
+                    <a class="dropdown-item" href="#">Mistery</a>
+                    <a class="dropdown-item" href="#">Romance</a>
+                    <a class="dropdown-item" href="#">Slice-of-Life</a>
+                    <a class="dropdown-item" href="#">Sports</a>
+                    <a class="dropdown-item" href="#">Supernatural</a>
+                    <a class="dropdown-item" href="#">Thriller</a>
+                  </div>
+                </li>
+
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    News
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#">Highlights</a>
+                    <a class="dropdown-item" href="#">Season News</a>
+                    <a class="dropdown-item" href="#">All</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Clarification Notes</a>
+                    <a class="dropdown-item" href="#">IMPORTANT</a>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <ul class="navbar-nav ml-auto">
+            <li>
+              <button type="button" class="btn btn-outline nav-button">Register</button>
+            </li>
+            <li>
+              <button type="button" class="btn btn-outline nav-button">Login</button>
+            </li>
+          </ul>
+
+        </div>
+      </div>
+
+    </nav>
+  </header>
+</section>
+
+<!-- Frame1 -->
+<section>
+  <div class="container-fluid">
+    <div class="row align-items-center justify-content-center video-div">
+      <!-- Background video -->
+      <video class="video" preload="true" autoplay="autoplay" muted="muted" loop="loop" poster="../public/assets/images/oicasada.jpeg">
+        <source src="../public/assets/videos/crunch.mp4" type="video/mp4"/>
+      </video>
+
+      <div class="background-text">
+        <div style="text-align: center">
+          <h1 id="site-title">The Anime Universe</h1>
+          <p class="subtitle">anywhere, on any device in every way possible</p>
+        </div>
+
+        <form action="index.html" method="post">
+          <div class="row form-div">
+            <div class="col-lg-8">
+              <input type="email" placeholder="Email" id="register-input"/>
+            </div>
+
+            <div class="col-lg-4">
+              <button class="btn btn-lg" type="button" id="register-btn">
+                Sing Up
+              </button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Frame2 -->
+<section class="color-section">
+  <div class="container-fluid download-div">
+    <div class="row align-items-center justify-content-center">
+      <div class="col-lg-6">
+        <div class="download-info">
+          <h2 class="download-text">Watch any time, any place!</h2>
+
+          <div class="row download-text">
+            <div class="col-lg-6 col-md-6">
+              <button class="btn btn-lg download-btn" type="button" name="button">
+                <i class="fab fa-google-play download-icon"></i>DOWNLOAD</button>
+            </div>
+
+            <div class="col-lg-6 col-md-6">
+              <button class="btn btn-lg download-btn" type="button" name="button">
+                <i class="fab fa-apple download-icon"></i>DOWNLOAD</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-6">
+        <img class="smartphone-img" src="../public/assets/images/smartphone-image.png">
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Frame3 -->
+<section>
+  <div class="container-fluid">
+    <div class="row align-items-center justify-content-center">
+      <div class="col-lg-4 feature-box feature-icon">
+        <i class="fas fa-download fa-9x"></i>
+        <p class="feature-text">Download you favorite episodes in high resolution!</p>
+      </div>
+
+      <div class="col-lg-4 feature-box feature-icon">
+        <i class="fab fa-accessible-icon fa-9x"></i>
+        <p class="feature-text">Literraly any one can use.</p>
+      </div>
+
+      <div class="col-lg-4 feature-box feature-icon">
+        <i class="fas fa-bullseye fa-9x"></i>
+        <p class="feature-text">Find a anime that will suit your tastes.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Frame4 -->
+<section>
+  <div class="container-fluid color-section">
+    <div class="row align-items-center justify-content-center">
+      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+
+        <div class="carousel-inner" pause="hover">
+          <div class="carousel-item active">
+            <div class="row align-items-center justify-content-center">
+              <div class="col-lg-6 anime-content-div carousel-text">
+                <h1 class="anime-title">Lord El-Melloi II Case Files: Rail Zeppelin Grace Note</h1>
+                <p class="synopsis">
+                  Taking place 10 years after the events of Fourth Holy Grail War and 2 months before the events of Fate/stay night, the story focuses on Lord El-Melloi II, formerly known as Waver Velvet, a successor of Kayneth and former master in the last Grail War, who is now a professor under the ranks of the Mage's Association. In his years as a professor in the Clock Tower, he is acting as the temporary head of the El-Melloi household until a proper successor can take over. But when strange mysteries involving magic start happening around London, he teams up with a mysterious person and apprentice named Gray in solving many mysteries and cases involving magecraft and hidden conspiracies driving the Mages' Association.
+                </p>
+              </div>
+              <div class="col-lg-6 anime-content-div">
+                <div class="iframe-container">
+                  <iframe loading="lazy" src="https://www.youtube.com/embed/GWc4ugCCo5I" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen"></iframe>
                 </div>
-              </li>
+              </div>
+            </div>
+          </div>
 
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  Season Release
-                </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <a class="dropdown-item" href="#">Season Highlights</a>
-                  <a class="dropdown-item" href="#">Week Release</a>
-                  <a class="dropdown-item" href="#">Airing</a>
+          <div class="carousel-item">
+            <div class="row align-items-center justify-content-center">
+              <div class="col-lg-6 anime-content-div">
+                <h1 class="anime-title">Sword Art Online Alicization War of Underworld</h1>
+                <p class="synopsis">
+                  Despite the defeat of Quinella—the pontifex of the Axiom Church—things have not seemed to calm down yet. Upon contacting the real world, Kazuto "Kirito" Kirigaya finds out that the Ocean Turtle—a mega-float controlled by Rath—was raided. Due to a sudden short-circuit caused by the raiders, Kirito's fluctlight is damaged, leaving him comatose. Feeling insecure about the people at the Axiom Church, Alice brings the unconscious Kirito back to their hometown—Rulid Village, disregarding her banishment due to an unabsolved crime. Now, Alice is living an ordinary and peaceful life close by the village, wishing for Kirito to wake up.
+                </p>
+              </div>
+              <div class="col-lg-6 anime-content-div">
+                <div class="iframe-container">
+                  <iframe loading="lazy" src="https://www.youtube.com/embed/Z7oiq9LDm8k" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen"></iframe>
                 </div>
-              </li>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row align-items-center justify-content-center">
+              <div class="col-lg-6 anime-content-div">
+                <h1 class="anime-title">The Rising of the Shield Hero</h1>
+                <p class="synopsis">
+                  Stories of old tell of four otherworldly heroes—wielding the sword, spear, bow, and shield—who defended the land from wave after wave of calamity. With the fate of the world in balance, the kingdom of Melromarc summons these legendary figures; in modern-day Japan, the call is answered, and the unwitting heroes are transported to this fantasy universe.
+                </p>
+                <p class="synopsis">
+                  Thrust into Melromarc and given the title of "Shield Hero," otaku Naofumi Iwatani is labeled the weakest due to his lack of offensive capability and apparent inexperience. When the heroes part ways to start their journeys, he only has one willing companion: the beautiful princess Malty Melromarc. However, she soon betrays him, steals all his money, and accuses him of taking advantage of her.
+                </p>
+                <p class="synopsis">
+                  For his alleged crimes, Naofumi is branded a criminal and made outcast of society. With hatred filling his heart, he sets out alone, vowing vengeance against those who wronged him.
+                </p>
+              </div>
+              <div class="col-lg-6 anime-content-div">
+                <div class="iframe-container">
+                  <iframe loading="lazy" src="https://www.youtube.com/embed/cmwqlMnGDzA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen"></iframe>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  Category
-                </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <a class="dropdown-item" href="#">Ação</a>
-                  <a class="dropdown-item" href="#">Aventura</a>
-                  <a class="dropdown-item" href="#">Battle</a>
-                  <a class="dropdown-item" href="#">Comedy</a>
-                  <a class="dropdown-item" href="#">Drama</a>
-                  <a class="dropdown-item" href="#">Fantasy</a>
-                  <a class="dropdown-item" href="#">Mecha</a>
-                  <a class="dropdown-item" href="#">Music</a>
-                  <a class="dropdown-item" href="#">Mistery</a>
-                  <a class="dropdown-item" href="#">Romance</a>
-                  <a class="dropdown-item" href="#">Slice-of-Life</a>
-                  <a class="dropdown-item" href="#">Sports</a>
-                  <a class="dropdown-item" href="#">Supernatural</a>
-                  <a class="dropdown-item" href="#">Thriller</a>
-                </div>
-              </li>
+<!-- Frame5 -->
+<section class="frame4">
+  <div class="titleSubscription">
+    <h1>
+      Enjoy all benefits with Premium
+      <br/>
+      or use the free version!
+    </h1>
+    <p>Premium subscribers can enjoy many benefits!</p>
+  </div>
 
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  News
-                </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <a class="dropdown-item" href="#">Highlights</a>
-                  <a class="dropdown-item" href="#">Season News</a>
-                  <a class="dropdown-item" href="#">All</a>
-                  <div class="dropdown-divider"></div>
-                  <a class="dropdown-item" href="#">Clarification Notes</a>
-                  <a class="dropdown-item" href="#">IMPORTANT</a>
-                </div>
-              </li>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="pricing-column col-lg-4 col-md-6">
+        <div class="card cardsub">
+          <div class="card-header">
+            <h1>Ani</h1>
+          </div>
+          <div class="card-body">
+            <h2 class="price-text">Free</h2>
+
+            <ul class="benefits">
+              <li>Ads</li>
+              <li>Limited access to 80% of the catalog</li>
+              <li>1 Week delay to watch the launches</li>
+              <li>Without dubbing</li>
+              <li>Limited to up to 480p resolution</li>
+              <li>No gifts at events</li>
+              <li>No discounts on our products</li>
+              <li>Watch on up to 1 screen</li>
             </ul>
           </div>
-        </div>
-
-        <ul class="navbar-nav ml-auto">
-          <li><button type="button" class="btn btn-outline nav-button">Register</button></li>
-          <li><button type="button" class="btn btn-outline nav-button">Login</button></li>
-        </ul>
-
-      </div>
-    </div>
-
-  </nav>
-  </header>
-  </section>
-
-  <!-- Frame1 -->
-  <section>
-    <div class="container-fluid">
-      <div class="row align-items-center justify-content-center video-div">
-        <!-- Background video -->
-        <video class="video" preload="true" autoplay muted loop poster="../public/assets/images/oicasada.jpeg">
-          <source src="../public/assets/videos/crunch.mp4" type="video/mp4" />
-        </video>
-
-        <div class="background-text">
-          <div style="text-align: center">
-            <h1 id="site-title">The Anime Universe</h1>
-            <p class="subtitle">anywhere, on any device in every way possible</p>
-          </div>
-
-          <form action="index.html" method="post">
-            <div class="row form-div">
-              <div class="col-lg-8">
-                <input type="email" placeholder="Email" id="register-input" />
-              </div>
-
-              <div class="col-lg-4">
-                <button class="btn btn-lg" type="button" id="register-btn">
-                  Sing Up
-                </button>
-              </div>
-            </div>
-          </form>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Frame2 -->
-  <section class="color-section">
-    <div class="container-fluid download-div">
-      <div class="row align-items-center justify-content-center">
-        <div class="col-lg-6">
-          <div class="download-info">
-            <h2 class="download-text">Watch any time, any place!</h2>
-
-            <div class="row download-text">
-              <div class="col-lg-6 col-md-6">
-                <button class="btn btn-lg download-btn" type="button" name="button"><i class="fab fa-google-play download-icon"></i>DOWNLOAD</button>
-              </div>
-
-              <div class="col-lg-6 col-md-6">
-                <button class="btn btn-lg download-btn" type="button" name="button"><i class="fab fa-apple download-icon"></i>DOWNLOAD</button>
-              </div>
-            </div>
+          <div class="d-flex justify-content-center">
+            <button class="btn btn-lg btn-block btn-dark card-btn d-flex align-items-center justify-content-center" type="button">
+              <span class="singup-text">Sign Up</span>
+            </button>
           </div>
         </div>
+      </div>
 
-        <div class="col-lg-6">
-          <img class="smartphone-img" src="../public/assets/images/smartphone-image.png">
+      <div class="pricing-column col-lg-4 col-md-6">
+        <div class="card cardsub">
+          <div class="card-header">
+            <h1>Ani<span>+</span></h1>
+          </div>
+          <div class="card-body">
+            <h2 class="price-text">$7/
+              <span>month</span><span>+taxes</span></h2>
+
+            <ul class="benefits">
+              <li>No Ads</li>
+              <li>Unlimited access to the catalog</li>
+              <li>No delays in relation to releases in japan</li>
+              <li>Access to dubbed anime</li>
+              <li>Resolution up to 1080p</li>
+              <li>Gifts at events</li>
+              <li>Discounts on our products</li>
+              <li>Watch on up to 4 screen</li>
+              <li>Offline Viewing</li>
+            </ul>
+
+          </div>
+          <div class="d-flex justify-content-center">
+            <button class="btn btn-lg btn-block btn-dark card-btn d-flex align-items-center justify-content-center" type="button">
+              <span class="singup-text">Sign Up</span>
+            </button>
+          </div>
         </div>
       </div>
-    </div>
-  </section>
 
-  <!-- Frame3 -->
-  <section>
-    <div class="container-fluid">
-      <div class="row align-items-center justify-content-center">
-        <div class="col-lg-4 feature-box feature-icon">
-          <i class="fas fa-download fa-9x"></i>
-          <p class="feature-text">Download you favorite episodes in high resolution!</p>
-        </div>
+      <div class="pricing-column col-lg-4">
+        <div class="card cardsub">
+          <div class="card-header text-center">
+            <h1>Ani<span>World</span></h1>
+          </div>
+          <div class="card-body">
+            <h2 class="price-text">$20/
+              <span>month</span><span>+taxes</span></h2>
 
-        <div class="col-lg-4 feature-box feature-icon">
-          <i class="fab fa-accessible-icon fa-9x"></i>
-          <p class="feature-text">Literraly any one can use.</p>
-        </div>
-
-        <div class="col-lg-4 feature-box feature-icon">
-          <i class="fas fa-bullseye fa-9x"></i>
-          <p class="feature-text">Find a anime that will suit your tastes.</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Frame4 -->
-  <section>
-    <div class="container-fluid color-section">
-      <div class="row align-items-center justify-content-center">
-        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-          <ol class="carousel-indicators">
-            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-          </ol>
-
-          <div class="carousel-inner" pause="hover">
-            <div class="carousel-item active">
-              <div class="row align-items-center justify-content-center">
-                <div class="col-lg-6 anime-content-div carousel-text">
-                  <h1 class="anime-title">Lord El-Melloi II Case Files: Rail Zeppelin Grace Note</h1>
-                  <p class="synopsis">
-                    Taking place 10 years after the events of Fourth Holy Grail War and 2 months before the events of Fate/stay night, the story focuses on Lord El-Melloi II, formerly known as Waver Velvet, a successor of Kayneth and former master in
-                    the last Grail War, who is now a professor under the ranks of the Mage's Association. In his years as a professor in the Clock Tower, he is acting as the temporary head of the El-Melloi household until a proper successor can take
-                    over. But when strange mysteries involving magic start happening around London, he teams up with a mysterious person and apprentice named Gray in solving many mysteries and cases involving magecraft and hidden conspiracies driving
-                    the Mages' Association.
-                  </p>
-                </div>
-                <div class="col-lg-6 anime-content-div">
-                  <div class="iframe-container">
-                    <iframe loading="lazy" src="https://www.youtube.com/embed/GWc4ugCCo5I" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="carousel-item">
-              <div class="row align-items-center justify-content-center">
-                <div class="col-lg-6 anime-content-div">
-                  <h1 class="anime-title">Sword Art Online Alicization War of Underworld</h1>
-                  <p class="synopsis">
-                    Despite the defeat of Quinella—the pontifex of the Axiom Church—things have not seemed to calm down yet. Upon contacting the real world, Kazuto "Kirito" Kirigaya finds out that the Ocean Turtle—a mega-float
-                    controlled by Rath—was raided. Due to a sudden short-circuit caused by the raiders, Kirito's fluctlight is damaged, leaving him comatose. Feeling insecure about the people at the Axiom Church, Alice brings the unconscious Kirito
-                    back to their hometown—Rulid Village, disregarding her banishment due to an unabsolved crime. Now, Alice is living an ordinary and peaceful life close by the village, wishing for Kirito to wake up.
-                  </p>
-                </div>
-                <div class="col-lg-6 anime-content-div">
-                  <div class="iframe-container">
-                    <iframe loading="lazy" src="https://www.youtube.com/embed/Z7oiq9LDm8k" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="carousel-item">
-              <div class="row align-items-center justify-content-center">
-                <div class="col-lg-6 anime-content-div">
-                  <h1 class="anime-title">The Rising of the Shield Hero</h1>
-                  <p class="synopsis">
-                    Stories of old tell of four otherworldly heroes—wielding the sword, spear, bow, and shield—who defended the land from wave after wave of calamity. With the fate of the world in balance, the kingdom of Melromarc
-                    summons these legendary figures; in modern-day Japan, the call is answered, and the unwitting heroes are transported to this fantasy universe.
-                  </p>
-                  <p class="synopsis">
-                    Thrust into Melromarc and given the title of "Shield Hero," otaku Naofumi Iwatani is labeled the weakest due to his lack of offensive capability and apparent inexperience. When the heroes part ways to start their journeys, he
-                    only
-                    has one willing companion: the beautiful princess Malty Melromarc. However, she soon betrays him, steals all his money, and accuses him of taking advantage of her.
-                  </p>
-                  <p class="synopsis">
-                    For his alleged crimes, Naofumi is branded a criminal and made outcast of society. With hatred filling his heart, he sets out alone, vowing vengeance against those who wronged him.
-                  </p>
-                </div>
-                <div class="col-lg-6 anime-content-div">
-                  <div class="iframe-container">
-                    <iframe loading="lazy" src="https://www.youtube.com/embed/cmwqlMnGDzA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                  </div>
-                </div>
-              </div>
-            </div>
+            <ul class="benefits">
+              <li>No Ads</li>
+              <li>Unlimited access to the catalog</li>
+              <li>No delays in relation to releases in japan</li>
+              <li>Access to dubbed anime</li>
+              <li>Resolution up to 4K</li>
+              <li>Gifts at events</li>
+              <li>More discounts on our products and free delivery</li>
+              <li>Watch on up to 5 screen</li>
+              <li>Offline Viewing</li>
+              <li>In the events we are in, free entry</li>
+            </ul>
+          </div>
+          <div class="d-flex justify-content-center">
+            <button class="btn btn-lg btn-block btn-dark card-btn d-flex align-items-center justify-content-center" type="button">
+              <span class="singup-text">Sign Up</span>
+            </button>
           </div>
         </div>
       </div>
     </div>
-  </section>
+  </div>
 
-  <!-- Frame5 -->
-  <section class="frame4">
-    <div class="titleSubscription">
-      <h1>
-        Enjoy all benefits with Premium <br />
-        or use the free version!
-      </h1>
-      <p>Premium subscribers can enjoy many benefits!</p>
+  <div class="infosub">
+    <p>*AniStore availability may vary by region.<br>
+      **The availability of video content is subject to regional restrictions
+    </p>
+  </div>
+</section>
+
+<!-- Footer -->
+<section class="ultimate">
+
+  <div class="socials">
+    <div class="socialinfo">
+       <h2>Follow us on our social networks!</h2>
+       <div class="socialinks">
+        <a href="#"><i class='fab iconlinks'>&#xf09a;</i></a>
+        <a href="#"><i class='fab iconlinks'>&#xf16d;</i></a>
+        <a href="#"><i class='fab iconlinks'>&#xf392;</i></a>
+        <a href="#"><i class="fab iconlinks">&#xf081;</i></a>
+       </div>
     </div>
+    <img src="../public/assets/images/hime.svg" alt="">
+  </div>
 
-    <div class="container-fluid">
-      <div class="row">
-        <div class="pricing-column col-lg-4 col-md-6">
-          <div class="card">
-            <div class="card-header">
-              <h1>Ani</h1>
-            </div>
-            <div class="card-body">
-              <h2 class="price-text">Free</h2>
-
-              <ul class="benefits">
-                <li>Ads</li>
-                <li>Limited access to 80% of the catalog</li>
-                <li>1 Week delay to watch the launches</li>
-                <li>Without dubbing</li>
-                <li>Limited to up to 480p resolution</li>
-                <li>No gifts at events</li>
-                <li>No discounts on our products</li>
-                <li>Watch on up to 1 screen</li>
-              </ul>
-            </div>
-            <div class="d-flex justify-content-center">
-              <button class="btn btn-lg btn-block btn-dark card-btn d-flex align-items-center justify-content-center" type="button">
-                <span class="singup-text">Sign Up</span>
-              </button>
+  <div class="container-fluid footer">
+    <div class="row">
+      <div class="pricing-column col-sm">
+        <div class="card">
+          <div class="card-header infotitle">
+            <img src="../public/assets/images/fire.svg" alt="Fire Icon">
+            <h4>Series</h4>
+          </div>
+          <div class="card-body">
+            <div class="infolist">
+              <a href="#">Black Clover</a>
+              <a href="#">Bleach</a>
+              <a href="#">Boruto</a>
+              <a href="#">Dragon Ball Super</a>
+              <a href="#">Hunter x Hunter</a>
+              <a href="#">Naruto</a>
+              <a href="#">Naruto Shippuden</a>
+              <a href="#">One Piece</a>
+              <a href="#">Re:Zero</a>
+              <a href="#">The God of High School</a>
             </div>
           </div>
         </div>
+      </div>
 
-        <div class="pricing-column col-lg-4 col-md-6">
-          <div class="card">
-            <div class="card-header">
-              <h1>Ani<span>+</span></h1>
-            </div>
-            <div class="card-body">
-              <h2 class="price-text">$7/ <span>month</span><span>+taxes</span></h2>
-
-              <ul class="benefits">
-                <li>No Ads</li>
-                <li>Unlimited access to the catalog</li>
-                <li>No delays in relation to releases in japan</li>
-                <li>Access to dubbed anime</li>
-                <li>Resolution up to 1080p</li>
-                <li>Gifts at events</li>
-                <li>Discounts on our products</li>
-                <li>Watch on up to 4 screen</li>
-                <li>Offline Viewing</li>
-              </ul>
-
-            </div>
-            <div class="d-flex justify-content-center">
-              <button class="btn btn-lg btn-block btn-dark card-btn d-flex align-items-center justify-content-center" type="button">
-                <span class="singup-text">Sign Up</span>
-              </button>
+      <div class="pricing-column col-sm">
+        <div class="card">
+          <div class="card-header infotitle">
+            <i class='fab icon'>&#xf3ab;</i>
+            <h4>Platforms</h4>
+          </div>
+          <div class="card-body">
+            <div class="infolist">
+              <a href="#">Android</a>
+              <a href="#">Chromecast</a>
+              <a href="#">Fire TV Stick</a>
+              <a href="#">iOS</a>
+              <a href="#">LG TV</a>
+              <a href="#">Nintendo Switch & Wii U</a>
+              <a href="#">PlayStation 5, 4 & 3</a>
+              <a href="#">Xbox Series X | S, One & 360</a>
+              <a href="#">Samsung TV</a>
+              <a href="#">Windows</a>
             </div>
           </div>
         </div>
+      </div>
 
-        <div class="pricing-column col-lg-4">
-          <div class="card">
-            <div class="card-header text-center">
-              <h1>Ani<span>World</span></h1>
+      <div class="pricing-column col-sm">
+        <div class="card">
+          <div class="card-header infotitle">
+            <i class="fa icon">&#xf1cd;</i>
+            <h4>Support</h4>
+          </div>
+          <div class="card-body">
+            <div class="infolist">
+              <a href="#">Help / FAQ</a>
+              <a href="#">Contact</a>
+              <a href="#">Customer service</a>
+              <a href="#">Forum</a>
             </div>
-            <div class="card-body">
-              <h2 class="price-text">$20/ <span>month</span><span>+taxes</span></h2>
+          </div>
+        </div>
+      </div>
 
-              <ul class="benefits">
-                <li>No Ads</li>
-                <li>Unlimited access to the catalog</li>
-                <li>No delays in relation to releases in japan</li>
-                <li>Access to dubbed anime</li>
-                <li>Resolution up to 4K</li>
-                <li>Gifts at events</li>
-                <li>More discounts on our products and free delivery</li>
-                <li>Watch on up to 5 screen</li>
-                <li>Offline Viewing</li>
-                <li>In the events we are in, free entry</li>
-              </ul>
-            </div>
-            <div class="d-flex justify-content-center">
-              <button class="btn btn-lg btn-block btn-dark card-btn d-flex align-items-center justify-content-center" type="button">
-                <span class="singup-text">Sign Up</span>
-              </button>
+      <div class="pricing-column col-sm">
+        <div class="card">
+          <div class="card-header infotitle ani">
+            <img src="../public/assets/images/eye3.svg" alt="AniWord Icon"> <h4>Ani<span>World</span></h4>
+          </div>
+          <div class="card-body">
+            <div class="infolist">
+              <a href="#">About</a>
+              <a href="#">Work with us</a>
+              <a href="#">Publicity</a>
+              <a href="#">Copyright Policy</a>
+              <a href="#">Service Terms</a>
+              <a href="#">Privacy Policy</a>
             </div>
           </div>
         </div>
       </div>
     </div>
+  </div>
 
-    <div class="infosub">
-      <p>*AniStore availability may vary by region.<br>
-         **The availability of video content is subject to regional restrictions
-      </p>
-    </div>
-  </section>
+</section>
 
-
-  <!-- Footer -->
-  <section class="ultimate">
-
-      <div class="container-fluid footer">
-      <div class="row">
-        <div class="pricing-column col-sm">
-          <div class="card">
-            <div class="card-header infotitle">
-              <h4>Most Viewed Series</h4>
-            </div>
-            <div class="card-body">
-              <div class="infolist">
-                <a href="#">Black Clover</a>
-                <a href="#">Bleach</a>
-                <a href="#">Boruto</a>
-                <a href="#">Dragon Ball Super</a>
-                <a href="#">Hunter x Hunter</a>
-                <a href="#">Naruto</a>
-                <a href="#">Naruto Shippuden</a>
-                <a href="#">One Piece</a>
-                <a href="#">Re:Zero</a>
-                <a href="#">The God of High School</a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="pricing-column col-sm">
-          <div class="card">
-            <div class="card-header">
-              <h1>Ani<span>+</span></h1>
-            </div>
-            <div class="card-body">
-
-              <ul class="">
-                <li>No Ads</li>
-                <li>Unlimited access to the catalog</li>
-                <li>No delays in relation to releases in japan</li>
-                <li>Access to dubbed anime</li>
-                <li>Resolution up to 1080p</li>
-                <li>Gifts at events</li>
-                <li>Discounts on our products</li>
-                <li>Watch on up to 4 screen</li>
-                <li>Offline Viewing</li>
-              </ul>
-
-            </div>
-            <div class="d-flex justify-content-center">
-              <button class="btn btn-lg btn-block btn-dark card-btn d-flex align-items-center justify-content-center" type="button">
-                <span class="singup-text">Sign Up</span>
-              </button>
-            </div>
-          </div>
-        </div>
-
-        <div class="pricing-column col-sm">
-          <div class="card">
-            <div class="card-header text-center">
-              <h1>Ani<span>World</span></h1>
-            </div>
-            <div class="card-body">
-
-              <ul class="">
-                <li>No Ads</li>
-                <li>Unlimited access to the catalog</li>
-                <li>No delays in relation to releases in japan</li>
-                <li>Access to dubbed anime</li>
-                <li>Resolution up to 4K</li>
-                <li>Gifts at events</li>
-                <li>More discounts on our products and free delivery</li>
-                <li>Watch on up to 5 screen</li>
-                <li>Offline Viewing</li>
-                <li>In the events we are in, free entry</li>
-              </ul>
-            </div>
-            <div class="d-flex justify-content-center">
-              <button class="btn btn-lg btn-block btn-dark card-btn d-flex align-items-center justify-content-center" type="button">
-                <span class="singup-text">Sign Up</span>
-              </button>
-            </div>
-          </div>
-        </div>
-
-         <div class="pricing-column col-sm">
-          <div class="card">
-            <div class="card-header text-center">
-              <h1>Ani<span>World</span></h1>
-            </div>
-            <div class="card-body">
-
-              <ul class="">
-                <li>No Ads</li>
-                <li>Unlimited access to the catalog</li>
-                <li>No delays in relation to releases in japan</li>
-                <li>Access to dubbed anime</li>
-                <li>Resolution up to 4K</li>
-                <li>Gifts at events</li>
-                <li>More discounts on our products and free delivery</li>
-                <li>Watch on up to 5 screen</li>
-                <li>Offline Viewing</li>
-                <li>In the events we are in, free entry</li>
-              </ul>
-            </div>
-            <div class="d-flex justify-content-center">
-              <button class="btn btn-lg btn-block btn-dark card-btn d-flex align-items-center justify-content-center" type="button">
-                <span class="singup-text">Sign Up</span>
-              </button>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  
-  </section>
-
-  <!-- JavaScript -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="index.js" charset="utf-8"></script>
+<!-- JavaScript -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="index.js" charset="utf-8"></script>
 </body>
 
 </html>

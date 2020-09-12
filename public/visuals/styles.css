@@ -46,6 +46,13 @@ header{
   text-align: center;
 }
 
+.navtitle a span{
+  font-size: 1.5rem;
+  color: var(--color-white);
+  font-weight: bold;
+  text-shadow: 0.25rem 0.188rem 0.125rem var(--color-orange);
+}
+
 .nav-button{
   width: 8rem;
   margin: 0.5rem 0.5rem;
@@ -103,6 +110,10 @@ header{
 .navbar-nav.text-center li a:hover{
   font-weight: bold;
   color: var(--color-orange);
+}
+
+.navlink{
+  color: var(--color-white);
 }
 
 .btn{
@@ -271,12 +282,12 @@ header{
   font-size: 2rem;
 }
 
-.card:hover {
+.cardsub:hover {
  transition: 2s;
  color: var(--color-white);
 }
 
-.card::before{
+.cardsub::before{
   content: "";
   width: 0%;
   height: 0.2rem;
@@ -286,13 +297,13 @@ header{
   top: -1px;
 }
 
-.card:hover::before{
+.cardsub:hover::before{
   width: 100%;
   transition: width 1.5s ease-in-out;
   padding-right: 1rem;
 }
 
-.card::after{
+.cardsub::after{
   content: "";
   width: 0%;
   height: 0.2rem;
@@ -302,7 +313,7 @@ header{
   bottom: -1px;
 }
 
-.card:hover::after{
+.cardsub:hover::after{
   width: 100%;
   transition: width 1.5s ease-in-out;
   padding-right: 1rem;
@@ -351,7 +362,8 @@ header{
   list-style-type: circle;
   font-size: 1.25rem;
   line-height: 1.5rem;
-  list-style-position: inside;
+  list-style-position: inside;  
+  /* list-style-image: url("../assets/images/correct.svg"); */
 }
 .benefits li:first-child{
   margin-top: 1rem;
@@ -404,19 +416,102 @@ header{
 }
 
 .footer{
-  padding-top: 2rem;
+  padding-top: 3rem;
 }
 
 .ultimate{
   background-color: var(--color-dark-light);
+  padding-top: 4%;
+}
+
+.socials{
+  display: flex;
+  color: var(--color-white);
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  border-top: 0.188rem solid var(--color-orange);
+  border-bottom: 0.188rem solid var(--color-orange);
+}
+
+.socialinfo h2{
+  /* font-family: 'Poppins', sans-serif; */
+  font-weight: normal;
+  font-size: 1.5rem;
+  margin-right: 1rem;
+  text-shadow: 0.25rem 0.188rem 0.125rem var(--color-orange);
+}
+
+.iconlinks{
+  color: var(--color-white);
+  text-decoration: none;
+  /* box-shadow: 0.25rem 0.02rem 0.125rem var(--color-orange); */
+  font-size: 2.5rem;
+  border-radius: 0.5rem;
+
+}
+
+.iconlinks:hover{
+  transition: 0.7s;
+  text-decoration: none;
+  box-shadow: 0.4rem 0.1rem 0.125rem var(--color-orange);
+}
+
+
+.socialinks a + a{
+  margin-left: 4rem;
+}
+
+.socialinks{
+  display: flex;
+  justify-content: center;
 }
 
 .infotitle{
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
   padding: 0;
-}
-.infotitle h4{
-  font-size: 1rem;
+  margin-left: 1.15rem;
   font-weight: bold;
+  text-shadow: 0.2rem 0.188rem 0.125rem var(--color-black);
+}
+
+.infotitle img{
+  height: 1.5rem;
+  width: 1.5rem;
+}
+
+.aboutani{
+  color: var(--color-white);
+  font-weight: bold;
+  text-shadow: 0.25rem 0.188rem 0.125rem var(--color-orange);
+}
+
+.icon{
+  font-size: 1.2rem;
+  margin-right: 0.3rem;
+}
+
+.infotitle h4{
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 0;
+  margin-top: 0.2rem;
+}
+
+.infotitle span{
+  font-size: 1.5rem;
+  color: var(--color-white);
+  font-weight: bold;
+  text-shadow: 0.25rem 0.188rem 0.125rem var(--color-orange);
+}
+
+.ani img{
+  margin-top: 0.3rem;
+  height: 1.2rem;
+  width: 2.2rem;
+  margin-right: 0.3rem;
 }
 
 .infolist{
@@ -429,7 +524,7 @@ header{
   font-size: 0.95rem;
   text-decoration: none;
   color: var(--color-white);
-
+  max-width: fit-content;
 }
 
 .infolist a + a{
