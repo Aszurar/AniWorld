@@ -1,4 +1,4 @@
-# AniWorld | Straming de Anime
+# AniWorld | Streaming de Anime
 Uma página inicial que seria de algum streaming de anime, eu e meu amigo Pedro fizemos simplesmente para praticar o CSS, o visual e a criatividade
 ___
 <h2 align="center">AniWorld</h2>
