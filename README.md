@@ -49,8 +49,10 @@ ___
   $ git clone https://github.com/Aszurar/SitePessoal.git
   
 ```
-  - Baixar e extensão Live Server do vscode:
+  - Baixar a extensão Live Server do vscode:
+  ```bash
   <img src="https://i.imgur.com/yhSpTEV.png" width="600">
+  ```
 
 ___
 Desenvolvido por :star2: Lucas de Lima Martins de Souza.
