@@ -18,7 +18,7 @@ ___
 
 ___
 
-<div align="center" ><img src="https://i.imgur.com/ayWFydx.gif" width="600"></div>
+<div align="center" ><img src="https://media.giphy.com/media/mBDxKARXFYHTP3tKy1/giphy.gif" width="600"></div>
 
 ___
 
