@@ -24,7 +24,7 @@ ___
 
 ## :information_source: Sobre
 
-O projeto é um **AniWorld** é uma página inicial de um straming de Animes feito por mim e meu amigo(Pedro), a gente simpelsmente queria praticar nosso CSS e HTML, além disso também usar o Bootstrap, algo que eu nunca tinha visto.
+O projeto é **AniWorld** é uma página inicial de um straming de Animes feito por mim e meu amigo(Pedro), a gente simpelsmente queria praticar nosso CSS e HTML, além disso também usar o Bootstrap, algo que eu nunca tinha visto.
 ___
 ## :interrobang: Motivo
 
