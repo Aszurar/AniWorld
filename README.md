@@ -44,6 +44,7 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias
 
 <img src="https://i.imgur.com/DzBxybb.png" width="1000">
 ___
+
 ## :package: Como baixar o projeto
 
   - Clonar o projeto:
