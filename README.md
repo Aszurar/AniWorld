@@ -18,7 +18,7 @@ ___
 
 ___
 
-<div align="center" ><img src="https://media.giphy.com/media/mBDxKARXFYHTP3tKy1/giphy-downsized.gif" width="600"></div>
+<div align="center" ><img src="https://media.giphy.com/media/mBDxKARXFYHTP3tKy1/giphy-downsized.gif" width="800"></div>
 
 ___
 
@@ -30,7 +30,7 @@ ___
 ## :interrobang: Motivo
 
 O Intuito é praticar o HTML e CSS, além de explorar o Bootstrap, que era algo que eu não conhecia. Além disso, queria praticar alguns conhecimentos obtidos no **Bootcamp LaunchBase da Rocketseat**
-
+<img src="https://i.imgur.com/dImtZI5.png" width="1000">
 ## :seedling: Requisitos Mínimos
 
 Simplesmente ter o VScode e a extensão live share para visualizar o index.html.
