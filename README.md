@@ -33,7 +33,7 @@ O Intuito é praticar o HTML e CSS, além de explorar o Bootstrap, que era algo 
 <img src="https://i.imgur.com/dImtZI5.png" width="1000">
 ## :seedling: Requisitos Mínimos
 
-Simplesmente ter o VScode e a extensão live share para visualizar o index.html.
+Simplesmente ter o VScode e a extensão Live Server para visualizar o index.html.
 ___
 ## :rocket: Tecnologias Utilizadas 
 
@@ -42,6 +42,7 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias
 - [HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
 - [CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
 
+<img src="https://i.imgur.com/DzBxybb.png" width="1000">
 ___
 ## :package: Como baixar o projeto
 
