@@ -49,7 +49,7 @@ ___
 
   - Clonar o projeto:
 ```bash
-  $ git clone https://github.com/Aszurar/SitePessoal.git
+  $ https://github.com/Aszurar/AniWorld.git
   
 ```
   - Baixar a extensão Live Server do vscode:
