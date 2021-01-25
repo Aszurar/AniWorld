@@ -25,6 +25,7 @@ ___
 ## :information_source: Sobre
 
 O projeto **AniWorld** é uma página inicial de um straming de Animes feito por mim e meu amigo(Pedro), a gente simplesmente queria praticar nosso CSS e HTML, além disso também usar o Bootstrap, algo que eu nunca tinha visto.
+ <img src="https://i.imgur.com/b1ZDLF1.png" width="800"> 
 ___
 ## :interrobang: Motivo
 
@@ -50,13 +51,13 @@ ___
   
 ```
   - Baixar a extensão Live Server do vscode:
-  <img src="https://i.imgur.com/yhSpTEV.png" width="600">
+  <img src="https://i.imgur.com/yhSpTEV.png" width="800">
   
   - Abrir a pasta do projeto no vscode e abrir o arquivo **index.html** e clicar em Go Live(opção localizada no canto inferior direito):
-  <img src="https://i.imgur.com/hWiLUvn.png" width="600">
+  <img src="https://i.imgur.com/hWiLUvn.png" width="800">
   
   - Com isso, seu navegador padrão abrirá a página automaticamente:
-  <img src="https://i.imgur.com/k6J8Q7o.png" width="600">
+  <img src="https://i.imgur.com/k6J8Q7o.png" width="800">
   
 
 ___
