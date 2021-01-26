@@ -26,6 +26,10 @@ ___
 
 O projeto **AniWorld** é uma página inicial de um straming de Animes feito por mim e meu amigo(Pedro), a gente simplesmente queria praticar nosso CSS e HTML, além disso também usar o Bootstrap, algo que eu nunca tinha visto.
  <img src="https://i.imgur.com/b1ZDLF1.png" width="1000"> 
+ * Mobile:
+ <img src="https://i.imgur.com/me8pOxx.png"> 
+ <img src="https://i.imgur.com/TzSrrat.png"> 
+ 
 ___
 ## :interrobang: Motivo
 
