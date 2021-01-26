@@ -35,6 +35,11 @@ ___
 
 O Intuito é praticar o HTML e CSS, além de explorar o Bootstrap, que era algo que eu não conhecia. Além disso, queria praticar alguns conhecimentos obtidos no **Bootcamp LaunchBase da Rocketseat**
 <img src="https://i.imgur.com/dImtZI5.png" width="1000">
+ * Mobile:
+ <img src="https://i.imgur.com/b4u5cBY.png"> 
+ <img src="https://i.imgur.com/npcn8TC.png"> 
+ <img src="https://i.imgur.com/KB2VPBB.png"> 
+
 ## :seedling: Requisitos Mínimos
 
 Simplesmente ter o VScode e a extensão Live Server para visualizar o index.html.
