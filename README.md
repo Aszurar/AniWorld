@@ -52,6 +52,9 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias
 - [CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
 
 <img src="https://i.imgur.com/DzBxybb.png" width="1000">
+  * Mobile:
+  <img src="https://i.imgur.com/49MYfk4.png"> 
+  <img src="https://i.imgur.com/QS1qQde.png"> 
 ___
 
 ## :package: Como baixar o projeto
