@@ -60,6 +60,7 @@ ___
   
   - Com isso, seu navegador padrão abrirá a página automaticamente:
   <img src="https://i.imgur.com/k6J8Q7o.png" width="1000">
+  <img src="hhttps://i.imgur.com/iR8DDqm.png">
   
 
 ___
