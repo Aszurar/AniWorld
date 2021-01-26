@@ -17,10 +17,8 @@ ___
 </h3>
 
 ___
-
 <div align="center" ><img src="https://media.giphy.com/media/mBDxKARXFYHTP3tKy1/giphy-downsized.gif" width="800"></div>
-
-[![Veja esse vídeo o projeto!: ](https://media.giphy.com/media/mBDxKARXFYHTP3tKy1/giphy-downsized.gi)](https://youtu.be/qe_W_BL4u9A)
+ **Link do vídeo completo sobre o projeto:** https://www.youtube.com/watch?v=qe_W_BL4u9A&feature=youtu.be
 
 ___
 
