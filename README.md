@@ -20,7 +20,7 @@ ___
 
 <div align="center" ><img src="https://media.giphy.com/media/mBDxKARXFYHTP3tKy1/giphy-downsized.gif" width="800"></div>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/qe_W_BL4u9A" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+[![Watch the video](https://i.imgur.com/eQG2ijD.png)](https://youtu.be/qe_W_BL4u9A)
 
 ___
 
