@@ -28,8 +28,7 @@ ___
 O projeto **AniWorld** é uma página inicial de um straming de Animes feito por mim e meu amigo(Pedro), a gente simplesmente queria praticar nosso CSS e HTML, além disso também usar o Bootstrap, algo que eu nunca tinha visto.
  <img src="https://i.imgur.com/b1ZDLF1.png" width="1000"> 
  * Mobile:
- <img src="https://i.imgur.com/me8pOxx.png"> 
- <img src="https://i.imgur.com/TzSrrat.png"> 
+ <img src="https://i.imgur.com/me8pOxx.png" width="300">___________<img src="https://i.imgur.com/TzSrrat.png" width="300">
  
 ___
 ## :interrobang: Motivo
@@ -37,9 +36,7 @@ ___
 O Intuito é praticar o HTML e CSS, além de explorar o Bootstrap, que era algo que eu não conhecia. Além disso, queria praticar alguns conhecimentos obtidos no **Bootcamp LaunchBase da Rocketseat**
 <img src="https://i.imgur.com/dImtZI5.png" width="1000">
  * Mobile:
- <img src="https://i.imgur.com/b4u5cBY.png"> 
- <img src="https://i.imgur.com/npcn8TC.png"> 
- <img src="https://i.imgur.com/KB2VPBB.png"> 
+ <img src="https://i.imgur.com/b4u5cBY.png" width="200">__<img src="https://i.imgur.com/npcn8TC.png" width="200">__<img src="https://i.imgur.com/KB2VPBB.png" width="200"> 
 
 ## :seedling: Requisitos Mínimos
 
@@ -54,8 +51,7 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias
 
 <img src="https://i.imgur.com/DzBxybb.png" width="1000">
   * Mobile:
-  <img src="https://i.imgur.com/49MYfk4.png"> 
-  <img src="https://i.imgur.com/QS1qQde.png"> 
+  <img src="https://i.imgur.com/49MYfk4.png" width="300">_______<img src="https://i.imgur.com/QS1qQde.png" width="300"> 
 ___
 
 ## :package: Como baixar o projeto
@@ -74,9 +70,7 @@ ___
   - Com isso, seu navegador padrão abrirá a página automaticamente:
   <img src="https://i.imgur.com/k6J8Q7o.png" width="1000">
     * Mobile:
-    <img src="https://i.imgur.com/eQG2ijD.png">
-    <img src="https://i.imgur.com/iR8DDqm.png">
-    <img src="https://i.imgur.com/ITE6AVh.png">
+    <img src="https://i.imgur.com/eQG2ijD.png" width="200">___<img src="https://i.imgur.com/iR8DDqm.png" width="200">___<img src="https://i.imgur.com/ITE6AVh.png" width="200">
   
 
 ___
